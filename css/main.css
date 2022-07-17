@@ -1,0 +1,52 @@
+.bannerHome {
+    width: 100%;
+}
+
+h1 {
+display:none;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    margin: 3%;
+ }
+
+
+.tituloCarrito {
+    font-weight: bold;
+}
+
+.producto {
+    border: 1px solid #E2E2E2;
+    border-radius: 15px;
+    padding: 3%;
+    text-align: center;
+}
+
+
+.btn-primary {
+    background-color: #8bb2b5;
+    color: aliceblue;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.carrito {
+    padding: 2%;
+}
+
+.btnCarrito {
+    display:block;
+    background-color: #b58459;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 10px;
+    display:inline-block;
+}
+
